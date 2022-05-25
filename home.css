@@ -32,15 +32,8 @@
 
 .logo {
     height: 130px;
-    float: left;
-    position: absolute;
-    width: 160px;
-    justify-content: flex-start;
-    margin: 5 5 5 5;
-    flex-wrap: wrap;
 }
 
-.donatediv {
     background-color:#a9b0da80;
     margin: 5 5 5 5;
     padding: 35 0 30 0;
