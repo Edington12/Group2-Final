@@ -1,0 +1,93 @@
+
+
+
+
+
+
+.body {
+    margin: 0;
+    background-color:#afccf73a;   
+}
+
+
+.nav {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.582);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+} 
+
+.nav a {
+    color:rgba(12, 12, 112, 0.925);
+    text-decoration: none;
+    text-align:center;
+    font-size:20px;
+    font-family: 'Dosis', sans-serif;
+    padding: 5 5 5 5;
+    margin: 10 0 10 0; 
+    min-width: 175px;
+}
+
+.nav a:hover {
+    border-bottom: rgba(12, 12, 112, 0.925);
+    text-decoration: underline;
+}
+
+.logo {
+    height: 40px;;
+    width: 40px;
+    display:flex;
+    justify-content: flex-start;
+    margin: 5 5 5 5;
+}
+
+.donatediv {
+    background-color:#a9b0da80;
+    margin: 5 5 5 5;
+}
+
+
+img{
+    height:250px;
+    width: 250px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background: rgba(78, 185, 185, 0.349);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    
+}
+
+.footercontent {
+    text-align: center;
+    font-size:15px;
+    font-family: 'Dosis', sans-serif;
+    color:rgba(12, 12, 112, 0.925);
+}
+    
+ ul {
+    list-style: none;
+}
+
+.footerterms {
+    font-size: 15px;
+    margin: 1 1 1 1;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: rgb(56, 52, 52)
+}
+
+.footertitle {
+   font-weight: 700;
+}
