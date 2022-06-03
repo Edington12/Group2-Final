@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: 'Dosis', sans-serif; 
+   box-sizing:border-box;
+}
+a{
+   text-decoration: none;
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width:100%;
+}
+.review-heading{
+   letter-spacing: 1px;
+   margin: 30px 0px;
+}
+
+
+
