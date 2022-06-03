@@ -1,13 +1,14 @@
 .body {
     margin: 0;
     background-color:#afccf73a;   
+    display: flex;
 }
 
 
 .nav {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.582);
-    padding: 0;
+    padding: 0 auto;
     margin: 0;
     display: flex;
     justify-content: space-between;    
@@ -20,10 +21,11 @@
     text-align:center;
     font-size:40px;
     font-family: 'Dosis', sans-serif;
-    padding: 35 20 30 20;
-    margin: 10 0 10 0; 
     min-width: 200px;
+    padding: 35 20 30 20
+
 }
+
 
 .nav a:hover {
     border-bottom: rgba(12, 12, 112, 0.925);
@@ -31,20 +33,41 @@
 }
 
 .logo {
-    height: 130px;
+    height: 135px;
+    width: 150px;
+    display:flex;
+    top: 0%;
+    left:0%;
 }
 
-    background-color:#a9b0da80;
+/*.donatediv {
+    background-color:#a9b0dac5;
     margin: 5 5 5 5;
     padding: 35 0 30 0;
 }
+
+.logo {
+    height: 130px;
+} 
+
+
+ position: fixed;
+    left: 0;
+    top: 0;
+    height: 130px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5 5 5 5;
+}
+*/
 
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(78, 185, 185, 0.349);
+    background: rgba(78, 185, 185, 0.863);
     padding-top: 10px; 
 }
 
@@ -59,7 +82,7 @@ footer {
     list-style: none;
 }
 
-.footerterms {
+.footerterms{
     font-size: 15px;
     margin: 30 40 20 40;
     font-family: 'Dosis', sans-serif;
@@ -69,6 +92,42 @@ footer {
 
 .footertitle {
    font-weight: 700;
+}
+
+
+#background-video {
+   width: 100%;
+   margin: 135 0 0 0;
+   position: fixed;
+   background-color:#afccf73a; 
+   z-index:0
+}
+ 
+.opening-statment {
+
+    font-size: 40px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-weight: bolder;
+    color: rgba(7, 7, 70, 0.925);
+    position: fixed;
+    z-index: 1;
+    padding-left: 1%;
+    padding-top: 8%;
+    text-align: left;
+    overflow: hidden;
+    border-right: .15em solid rgba(255, 255, 255, 0);
+    white-space: nowrap;
+    animation: typing 2.5s steps(50, end) forwards;
+  }
+
+.small {
+    font-size: 20px;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
 
 
