@@ -1,0 +1,862 @@
+.body1 {
+    margin: 0;
+    height: 900px;
+    /*margin-top: 2px;*/
+    /*height: 100px;*/
+    background-color:#afccf73a;   
+    /*display: flex;*/
+}
+
+.body {
+    bottom: 1100px
+}
+
+.nav {
+    /*width: 98%;*/
+    /*width: 50%;*/
+    /*background-color: rgba(255, 255, 255, 0.582);*/
+    /*background-color: black;*/
+    /*padding: 0 auto;*/
+    padding: 0px;
+    /*margin: 0px;*/
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: -2px;
+    /*display: flex;*/
+    display:flex;
+    float: right;
+    /*justify-content: right;*/
+    text-align: right;  
+    /*position:fixed;*/
+    /*background-image: url("Images/mission-images/Screenshot\ 2022-06-02\ 221411.png");*/
+    /*background-color: black;*/
+    /*background-repeat: no-repeat;
+    background-size: 1000px, 250px;*/
+    /*object-fit: fill;*/
+    /*position: static;
+    display: flex;
+    top: 20px;
+    margin-top: 2px;*/
+    /*height: 350px;*/
+    /*height: 250px;*/
+    /*background-position-x: 306px;
+    background-position-y: -100px;*/
+    /*width: 800px;*/
+    /*padding: 2px;
+    border: 3px solid black;
+    border-left: -304px;*/
+
+    
+} 
+
+.nav a {
+    /*color:rgba(12, 12, 112, 0.925);*/
+    color: rgba(12, 12, 112, 0.925);
+    text-decoration: none;
+    text-align: right;
+    /*text-align: center;*/
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    /*margin-top: 2px;
+    margin-left: 0px;
+    margin-right: -2px;*/
+    /*margin-bottom: 100px;*/
+    min-width: 0px;
+    float: right;
+    /*padding: 3 3 3 3;*/
+    padding: 12 12 12 12;
+
+}
+
+.nav a:hover {
+    border-bottom: rgba(12, 12, 112, 0.925);
+    text-decoration: underline;
+}
+
+.logo {
+    height: 40px;
+    /*height: 135px;*/
+    width: 40px;
+    /*width: 150;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    margin-top: 6px;
+    margin-left: 0px;
+    margin-right: 830px;
+    /*top: 0%;*/
+    left: 0px;
+    background-color: black;
+}
+
+.img-logo {
+    width: 300px;
+    height: 225px;
+}
+
+
+/*body {
+
+
+    background-image: url("Images/mission-images/Students\ in\ class\ pic5.jpg"),url("Images/mission-images/Students\ studing\ in\ class\ pic1.jpg"),url("Images/mission-images/Students\ in\ class\ \(Inspire\)\ pic3.jpg");
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size: auto;
+    background-size: 300px, 300px, 500px; 
+    background-position: top-left 200px, top-center 200px, center-center 700px;
+    padding: 0px;
+    /*height: 275px;*/
+    /*background-image: 300px, 300px, -300px;
+    background-position-x: top left 200px, top center 200px, center center 100px;
+    
+        
+    }*/
+
+/*body {
+
+
+    background-image: url("Images/mission-images/Students\ in\ class\ pic5.jpg"),url("Images/mission-images/Students\ studing\ in\ class\ pic1.jpg"),url("Images/mission-images/Students\ in\ class\ \(Inspire\)\ pic3.jpg");
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size: auto;
+    background-size: 300px, 300px, 500px; 
+    background-position: top-left 200px, top-center 200px, center-center 700px;
+    padding: 0px;
+    /*height: 275px;*/
+    /*background-image: 300px, 300px, -300px;
+    background-position-x: top 300px, top 400px, center 800px;
+        
+            
+}*/
+
+/*body {
+
+    background-image: url("Images/mission-images/Students\ in\ class\ \(Inspire\)\ pic3.jpg");
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size:contain;
+    background-position: top 200px;
+    background-origin: padding-box 20px;
+    /*background-position: top 100px;*/
+    /*background-position-x: 2px;
+    background-position-y: 2px;
+    background-size: auto;
+    background-position: padding 3px;
+    background-position: left 100px;
+    background-position: right 100px;
+    background-position: top 100px;
+    background-position: bottome 100px;
+
+
+}*/
+
+/*.backgroundpic1 {
+    background-image: url("Images/mission-images/Students\ in\ class\ \(Inspire\)\ pic3.jpg");
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: top;
+    /*background-origin: padding-box 600px;*/
+    /*border: 3px solid black;
+    height: 450px;
+    width: auto;
+    margin-top: 2px;
+    padding: 2px;
+    left: auto;
+    right: auto;
+    top: 0px;
+    bottom: 0px;
+}*/
+
+
+.backgroundpic2 {
+    background-image: url("Images/mission-images/Screenshot\ 2022-06-02\ 221411.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: right;
+    position: static;
+    display: flex;
+    float: right;
+    top: 20px;
+    margin-top: -250px;
+    margin-left: 370px;
+    /*height: 350px;*/
+    height: 180px;
+    width: 936px;
+    /*width: 800px;*/
+    padding: 2px;
+    border: 3px solid black;
+
+}
+
+
+.backgroundpic1 {
+    background-image: url("Images/mission-images/Students\ in\ class\ \(Inspire\)\ pic3.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: left;
+    margin-top: 35px;
+    margin-left: 4px;
+    height: 350px;
+    width: 800px;
+    padding: 2px;
+    border: 3px solid black;
+
+}
+
+
+/*body {
+    background-image: url("Images/mission-images/Students\ in\ class\ \(Inspire\)\ pic3.jpg");
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size:contain;
+    background-position: 8px 300px;
+    /*background-origin: padding-box 600px;*/
+    /*border: 3px solid black;
+    float: inherit;
+    height: 394px;
+    width: 99%;
+    margin-top: 300px;
+    margin-left: 0px;*/
+    /*display: flex;*/
+    /*padding: 0px; 
+    left: -1px;
+    right: auto;
+    top: 300px;
+    bottom: 0px;
+}*/
+
+
+
+
+
+
+
+
+
+
+/*.navbar {
+    text-align: right;
+    /*margin-right: 850px;*/
+    /*position: inherit;
+    top: 0px;
+    float: right;
+    margin-right: 0px;
+    margin-left: -2px;
+    /*display:inline-flex;
+    justify-content: right;
+    margin: 0px;
+
+
+}*/
+
+
+.schoolsuppliespics {
+    display:grid;
+    background-color: black;   
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    height: 190px;
+    width: 700px;
+    position: static;
+    float: left;
+    margin: -10 0 0 35;
+    align-items: center;
+    
+
+}
+
+
+.griditem1 {
+    background-color: black;
+    border: 5px solid white;
+    padding: 2px;
+    margin: 2px;
+    margin-top: 4px;
+    height: 175px;
+    width: 175px;
+    
+    /*font-size: 12px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;*/
+    /*border: 5px solid white;*/
+}
+
+.griditem2 {
+    background-color: black;
+    border: 5px solid white;
+    padding: 2px;
+    margin: 10px;
+    margin-left: 40px;
+    height: 150px;
+    width: 200px;
+    /*font-size: 12px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;*/
+    /*border: 5px solid white;*/
+}
+
+.griditem3 {
+    background-color: black;
+    border: 5px solid white;
+    padding: 2px;
+    /*margin: 4px;*/
+    margin: 2px;
+    margin-top: 4px;
+    margin-left: 37px;
+    height: 175px;
+    width: 175px;
+    /*font-size: 12px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;*/
+    /*border: 5px solid white;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+    margin-top: 1%;
+    justify-content: center;
+    margin-left: 70%;
+    position:static;
+    justify-content: center;
+    background-color: red;
+}
+
+h4 {
+    /*margin-top: 20px;*/
+    /*justify-content: center;*/
+    /*margin-left: -4px;*/
+    /*position:static;*/
+    /*justify-content: center;*/
+    float: right;
+    margin-top: 196px;
+    margin-left: -22px;
+    margin-right: 12px;
+    /*background-color: black;*/
+    position: relative;
+    padding: 10px;
+    /*position: sticky;*/
+}
+
+.button1 {
+    background-color: red;
+
+}
+
+table {
+    width:16%;
+    /*position: fixed;*/
+    /*position: relative;*/
+    position:relative;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    
+}
+
+table, th, td {
+    border: 4px solid darkblue;
+    border-collapse: collapse;
+    margin-top: 800px;
+    margin-left: 1025px;
+    padding-right: 0;
+    position: sticky;
+
+    
+
+}
+
+td {color: black;
+
+}
+
+th {
+    text-align: center;
+
+}
+
+
+.flex-containermission {
+    background-color: darkmagenta;
+    padding: 2px;
+    position: relative;
+    /*margin: 50px;*/
+    /*display: flex;*/
+    float: left;
+    /*position:inherit;*/
+    /*margin-left: 4px;*/
+    /*flex-flow: column;*/
+    /*flex-wrap: wrap;*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    /*justify-content: space-around;*/
+    /*justify-content: space-between;*/
+    height: 350px;
+    width: 800px; 
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-bottom: 90px;
+    bottom: -30px;
+    
+
+    /*margin-bottom: 300px;*/
+    /*margin: 4 0 4 0;*/
+    /*left: 100px;
+    right: 100px;
+    bottom: 100px;
+    top: 100px;*/
+    /*margin-right: -150px;*/
+    /*line-height: 100px;*/
+}
+
+.flexmission1 {
+    text-align:center;
+    color:black; 
+    font-weight:bold; 
+    font-style:italic;
+    font-size:24px; 
+    text-decoration: underline;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 6px;
+
+
+}
+
+.flexmission2 {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    flex-wrap: nowrap;
+
+
+}
+
+.flexmission3 {
+    color:black;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 2px;
+    padding-right: 2px; 
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+    /*align-content: space-around;*/
+    
+
+ 
+}
+
+
+
+/* #overlay {
+     position: fixed;
+     display: none;
+     width: 25%;
+     height: 25%;
+     top: 50px;
+     left: 50px;
+     right: 50px;
+     bottom: 50px;
+     background-color: black;
+     z-index: 2;
+     cursor: pointer;
+
+}*/
+
+
+ 
+
+
+
+
+
+
+/*.piechart {
+    
+    margin-bottom: 350px;
+    margin-right: 20px;
+    width: 250px;
+    height: 250px;
+    display: block;
+    position:fixed;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        blue 0deg, blue 234deg,
+        yellow 234deg, yellow 270deg,
+        purple 270deg, purple 306deg,
+        orange 306deg, orange 324deg,
+        pink 324deg, pink 360deg,);
+
+    }*/
+
+    /*background-image: element(
+        ['Donation type', '% of donation'],
+        ['School Books', 65%],
+        ['School Supplies', 10%],
+        ['Snacks/Food', 10%],
+        ['Clothing Essentials', 5%],
+        ['Winter Clothing', 10%]
+
+    );*/
+
+    /*OR A KEY to the RIGHT with the colors?  But, they what about the %'s?*/
+
+
+
+/*body,
+.piechartdisp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    
+}*/
+
+/*table {
+    width:16%;
+    position: fixed;
+    
+}*/
+
+/*table, th, td {
+    border: 4px solid darkblue;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 1020px;
+    padding-right: 0;
+    position: sticky;
+
+    
+
+}*/
+
+/*td {color: black;
+
+}*/
+
+/*th {
+    text-align: center;
+
+}*/
+
+
+/*body {
+
+    background-image: url("images/mission-images/School\ Supplies2\ image.jpg");
+    background-image: url("images/mission-images/School\ books\ image.jpg");
+    background-color: white;
+    background-repeat:no-repeat;
+    background-attachment:inherit;
+    background-size:contain;
+    background-position: center center;
+    /*background-position: top 4px;*/
+    /*background-position: 25%;*/
+
+    /*background-attachment:inherit;
+    background-size: contain;
+    background-position: center;
+    background-position: top 6px;
+
+}*/
+
+/*.buttonone {
+    color: red;
+    display:table-caption;
+    float:right;
+    margin-left: 70%;
+    margin-right: 1.5%;
+    position: static;
+    background-color: blue;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;*/
+    /*color: white;*/
+    /*font-size: small;
+    font-style: italic;
+    justify-items: right;
+    position: static;
+
+}*/
+
+
+
+.btn {
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    margin-top: 575px;
+    margin-bottom: 0px;
+    margin-right: 1%;
+    height: 50px;
+    float: right;
+    background: url("donate.html");
+
+
+    
+
+}
+
+.moreinfo {
+    background-color: blue;
+    margin-bottom: 50px;
+
+}
+
+.moreinfo:hover {background:#0b7dda;
+
+}
+
+
+
+
+/*footer {
+    display: block;
+    /*display:inline-flexbox;*/
+    /*position: static;
+    /*bottom:auto;*/ 
+    /*bottom: 0%; 
+    width:100%; 
+    height:auto;
+    text-align: center;
+    padding: 1px;
+    /*padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;*/
+    /*background-color: lightskyblue;
+    font-style: italic;
+    font-size: 12px;
+    
+
+
+}*/
+
+
+
+
+/*..........footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(78, 185, 185, 0.863);
+    /*changed padding from 10px to 2px*/
+    /*padding-top: 2px; 
+
+
+}
+
+.footercontent {
+    text-align: center;
+    font-size:20px;
+    font-family: 'Dosis', sans-serif;
+    color:rgba(12, 12, 112, 0.925);
+}
+    
+ ul {
+    list-style: none;
+}
+
+.footerterms{
+    font-size: 15px;
+    font-size: 8px;
+    margin: 30 40 20 40;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: rgb(56, 52, 52)
+}*/
+
+/*changed font from 15px to 8px*/
+/*.footertitle {
+   font-weight: 700;
+}
+
+
+#background-video {
+   width: 100%;
+   margin: 135 0 0 0;
+   position: fixed;
+   background-color:#afccf73a; 
+   z-index:0
+}
+ 
+.opening-statment {
+
+    font-size: 40px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-weight: bolder;
+    color: rgba(7, 7, 70, 0.925);
+    position: fixed;
+    z-index: 1;
+    padding-left: 1%;
+    padding-top: 8%;
+    text-align: left;
+    overflow: hidden;
+    border-right: .15em solid rgba(255, 255, 255, 0);
+    white-space: nowrap;
+    animation: typing 2.5s steps(50, end) forwards;
+  }
+
+.small {
+    font-size: 20px;
+}*/
+
+  
+/*.container5 {
+}*/
+
+/*@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}*/
+
+.footer {
+    /*position:inherit;*/
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    /*height: auto;*/
+    /*text-align: center;*/
+    /*padding: 1px;*/
+    margin-bottom: 2px;
+    /*left: 0;
+    right: 0;*/
+    /*background: rgba(78, 185, 185, 0.349);*/
+    /*color: lemonchiffon;*/
+    /*background-color: lemonchiffon;*/
+    /*background-color: rgb(2, 2, 102);*/
+    background-color: rgba(12, 12, 112, 0.925);
+    height: 70px;
+    bottom: -775px;
+
+}
+
+    
+
+.footercontent {
+    text-align: center;
+    font-size: 6px;
+    font-family: 'Dosis', sans-serif;
+    /*color:rgba(12, 12, 112, 0.925);*/
+    /*color:lemonchiffon;*/
+    color: yellow;
+
+}
+
+ul {
+    list-style: none;
+    /*text-align: center;*/
+
+}
+
+.footerterms {
+    font-size: 10px;
+    /*margin: -15 1 1 1;*/
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    /*color: rgb(56, 52, 52);*/
+    /*color: rgba(12, 12, 112, 0.925);*/
+    /*color: rgb(2, 2, 102);*/
+    color:yellow;
+
+}
+
+.footertitle {
+   font-weight:bold;
+   font-size: 10px;
+   margin: -11 0 0 0;
+   text-align: center;
+
+}
+
+li {
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
