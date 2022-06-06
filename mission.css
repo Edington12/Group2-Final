@@ -184,7 +184,7 @@
     display: flex;
     float: right;
     top: 20px;
-    margin-top: -250px;
+    margin-top: -400px;
     margin-left: 370px;
     /*height: 350px;*/
     height: 180px;
@@ -212,6 +212,24 @@
 
 }
 
+
+h4 {
+    /*margin-top: 20px;*/
+    /*justify-content: center;*/
+    /*margin-left: -4px;*/
+    /*position:static;*/
+    /*justify-content: center;*/
+    float: right;
+    margin-top: 196px;
+    margin-left: -22px;
+    margin-right: 12px;
+    bottom: 150px;
+    /*background-color: black;*/
+    position: relative;
+    padding: 10px;
+    /*position: sticky;*/
+    
+}
 
 /*body {
     background-image: url("Images/mission-images/Students\ in\ class\ \(Inspire\)\ pic3.jpg");
@@ -345,21 +363,7 @@ h3 {
     background-color: red;
 }
 
-h4 {
-    /*margin-top: 20px;*/
-    /*justify-content: center;*/
-    /*margin-left: -4px;*/
-    /*position:static;*/
-    /*justify-content: center;*/
-    float: right;
-    margin-top: 196px;
-    margin-left: -22px;
-    margin-right: 12px;
-    /*background-color: black;*/
-    position: relative;
-    padding: 10px;
-    /*position: sticky;*/
-}
+
 
 .button1 {
     background-color: red;
