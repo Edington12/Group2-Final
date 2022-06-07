@@ -1,11 +1,11 @@
-<body
-background-color:
-{
-    margin: 0px;
+body
+{background-color:rgba(rgb(0, 81, 255), rgb(154, 1075, 21), blue, alpha);
+
+ margin: 0px;
     padding: 0px;
-   font-family: 'Dosis', sans-serif; 
+   font-family: 'Dosis', sans-serif;
    box-sizing:border-box;
-}
+ }
 
 a{
    padding:0 100px;
