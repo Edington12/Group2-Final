@@ -160,17 +160,17 @@
     background-image: url("Images/mission-images/Screenshot\ 2022-06-02\ 221411.png");
     background-color: black;
     background-repeat: no-repeat;
-    background-attachment: inherit;
+    /*background-attachment: inherit;*/
     background-size: cover;
     background-position: right;
     position: static;
     display: flex;
-    float: right;
+    /*float: right;*/
     top: 20px;
-    margin-top: -400px;
-    margin-left: 370px;
+    margin-top: -240px;
+    margin-left: 315px;
     /*height: 350px;*/
-    height: 180px;
+    height: 174px;
     width: 936px;
     /*width: 800px;*/
     padding: 2px;
@@ -186,7 +186,7 @@
     background-attachment: inherit;
     background-size: cover;
     background-position: left;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 4px;
     height: 350px;
     width: 800px;
@@ -449,7 +449,7 @@ th {
     cursor: pointer;
     padding: 8px 12px;
     position: relative;
-    margin-top: 575px;
+    margin-top: 569px;
     margin-bottom: 0px;
     margin-right: 1%;
     height: 50px;
