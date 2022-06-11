@@ -73,3 +73,49 @@ a{
     margin: 30px 0px;
 }
 
+
+.footer {
+   display: block;
+   position: absolute;
+   bottom: 0%;
+   width: 100%;  
+   margin-bottom: 2px;
+   background-color: rgba(12, 12, 112, 0.925);
+   height: 70px;
+   bottom: -775px;
+
+}
+
+.footercontent {
+   text-align: center;
+   font-size: 6px;
+   font-family: 'Dosis', sans-serif;
+   color: yellow;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+.footerterms {
+   font-size: 10px;
+   font-family: 'Dosis', sans-serif;
+   text-align: center;
+   color:yellow;
+}
+
+.footertitle {
+   font-weight:bold;
+   font-size: 10px;
+   margin: -11 0 0 0;
+   text-align: center;
+}
+
+li {
+
+   font-size: 8px;
+   text-align: center;
+   color: yellow;
+}
