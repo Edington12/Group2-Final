@@ -10,6 +10,7 @@
     padding: 0;
     margin: 0 0 0 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     position: fixed;
 } 
@@ -52,12 +53,10 @@ img {
     position: absolute;
     width: 200px;
     height: 160px;
-    flex-wrap: wrap;
     margin: 0 0 0 1670;
 }
 
 .grid-one {    
-    display: grid;
     padding: 20px; 
     width: 300px;
     text-align: right;
@@ -66,6 +65,7 @@ img {
 
 .grid-two {    
     display: grid;
+    flex-wrap: wrap;
     padding: 50px;
     width: 300px; 
     text-align: right;
@@ -545,9 +545,9 @@ h2 {
 .footer {
     position: fixed;
     color: yellow;
-    bottom: 0;
-    left: 0;
     right: 0;
+    left: 0;
+    bottom: 0;
     background: rgba(12, 12, 112, 0.925);
     height: 150px;
     width: auto;
