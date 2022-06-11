@@ -75,20 +75,21 @@ a{
 
 
 .footer {
-   display: block;
-   position: absolute;
-   bottom: 0%;
-   width: 100%;  
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   width: auto;
    margin-bottom: 2px;
    background-color: rgba(12, 12, 112, 0.925);
-   height: 70px;
-   bottom: -775px;
+   height: 150px;
+   
 
 }
 
 .footercontent {
    text-align: center;
-   font-size: 6px;
+   font-size: 15px;
    font-family: 'Dosis', sans-serif;
    color: yellow;
 
@@ -100,7 +101,8 @@ ul {
 
 }
 .footerterms {
-   font-size: 10px;
+   font-size: 15px;
+   margin: -8 1 1 1;
    font-family: 'Dosis', sans-serif;
    text-align: center;
    color:yellow;
@@ -108,14 +110,14 @@ ul {
 
 .footertitle {
    font-weight:bold;
-   font-size: 10px;
-   margin: -11 0 0 0;
+   font-size: 20px;
+   margin: -15 0 0 0;
    text-align: center;
 }
 
 li {
 
-   font-size: 8px;
+   font-size: 15px;
    text-align: center;
    color: yellow;
 }
